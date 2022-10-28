@@ -88,3 +88,12 @@
 .yellowbg{
     background-color: yellow;
 }
+
+#pageFooter {
+    display: table-footer-group;
+}
+
+#pageFooter:after {
+    counter-increment: page;
+    content: counter(page);
+}
