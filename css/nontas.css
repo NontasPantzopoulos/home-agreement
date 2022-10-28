@@ -1,7 +1,8 @@
 * {font-family: 'Segoe UI'; 
-    font-size: 12pt; 
+    font-size: 14pt; 
     line-height: 2.0;
-background-color: rgb(250, 239, 224);}
+    /* background-color: rgb(250, 239, 224); */
+}
 /* #daySelector1 {
     padding-left:0px;
     height:30px;
@@ -19,11 +20,11 @@ background-color: rgb(250, 239, 224);}
 } */
 .daySelector1 {
     padding-left:0px;
-    height:25px;
+    height:30px;
     position:static;
     border:0px solid rgb(241, 241, 241);
-    background-color: rgb(255, 255, 255);
-    width:30px;
+    background-color: rgb(241, 241, 241);
+    width:40px;
     display:block;
     appearance: none;
     -webkit-appearance: none;
@@ -35,10 +36,10 @@ background-color: rgb(250, 239, 224);}
 }
 .monthSelector1 {
     padding-left:0px;
-    height:25px;
+    height:40px;
     position:static;
     border:0px solid rgb(253, 253, 253);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 241, 241);
     width:auto;
     display:block;
     appearance: none;
@@ -51,36 +52,39 @@ background-color: rgb(250, 239, 224);}
 }
 
 .yearText{
-    height:25px;
-    width: 50px; 
+    height:30px;
+    width: 70px; 
     border:0px solid rgb(241, 241, 241);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 241, 241);
 }
 
 .cityText{
-    height:25px;
-    width: 200px; 
+    height:30px;
+    width: 250px; 
     border:0px solid rgb(241, 241, 241);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 241, 241);
 }
 
 .fullNameText{
-    height:25px;
+    height:30px;
     width: 350px; 
     border:0px solid rgb(241, 241, 241);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 241, 241);
 }
 .nameText{
     padding-left:0px;
-    height:25px;
+    height:30px;
     width: 250px; 
     border:0px solid rgb(241, 241, 241);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 241, 241);
 }
 
 .fullAmountText{
-    height:25px;
+    height:30px;
     width: 500px; 
     border:0px solid rgb(241, 241, 241);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 241, 241);
+}
+.yellowbg{
+    background-color: yellow;
 }
