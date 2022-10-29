@@ -88,3 +88,41 @@
 .yellowbg{
     background-color: yellow;
 }
+
+@media print{
+    @page {
+        size: A4;
+        margin: 10mm 10mm;
+        bleed: 6mm;
+        marks: crop cross;
+    }
+    @page:left {
+        margin-left: 30mm;
+        margin-right: 20mm;
+    }
+    @page:right {
+        margin-left: 20mm;
+        margin-right: 30mm;
+    }
+    .chapter{
+        break-before: right;
+    }
+}
+
+@page {
+    size: A4;
+    margin-top: 10mm;
+    margin-right: 20mm;
+    margin-bottom: 25mm;
+    margin-left: 15mm;
+  
+    @bottom-left {
+      content: counter(page);
+    }
+  
+    @bottom-center {
+      content: string(title);
+      text-transform: uppercase;
+    }
+  
+  }
