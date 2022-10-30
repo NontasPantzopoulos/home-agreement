@@ -60,6 +60,13 @@
 
 .cityText{
     height:30px;
+    width: 250px; 
+    border:0px solid rgb(241, 241, 241);
+    background-color: rgb(241, 241, 241);
+}
+
+.afmText{
+    height:30px;
     width: 200px; 
     border:0px solid rgb(241, 241, 241);
     background-color: rgb(241, 241, 241);
