@@ -89,3 +89,50 @@
     background-color: yellow;
 }
 
+@page {
+    size: A4;
+    margin-top: 10mm;
+    margin-right: 20mm;
+    margin-bottom: 20mm;
+    margin-left: 30mm;
+    marks: crop cross;
+
+
+
+    @bottom-center {
+        content: string(title);
+        text-transform: uppercase;
+      }
+
+    @bottom-left {
+        content: "Page " counter(page) " of " counter(pages);
+    }
+  };
+
+  @media print{
+    @page {
+        size: A4;
+        margin: 10mm 15mm;
+        bleed: 6mm;
+        marks: crop cross;
+    }
+    @page:left {
+        margin-left: 35mm;
+        margin-right: 15mm;
+    }
+    @page:right {
+        margin-left: 15mm;
+        margin-right: 35mm;
+    }
+    .chapter{
+        break-before: right;
+    }
+};
+
+.pagedjs_page {
+    --pagedjs-string-title: "ΜΙΣΘΩΤΗΡΙΟ   ΣΥΜΦΩΝΗΤΙΚΟ   ΚΑΤΟΙΚΙΑΣ";
+    margin-top: 10mm;
+    margin-right: 20mm;
+    margin-bottom: 20mm;
+    margin-left: 30mm;
+}
